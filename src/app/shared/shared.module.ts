@@ -1,0 +1,95 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {
+	DxAutocompleteModule,
+	DxButtonModule,
+	DxCalendarModule,
+	DxCheckBoxModule,
+	DxColorBoxModule,
+	DxDataGridModule,
+	DxDateBoxModule,
+	DxDropDownBoxModule,
+	DxFilterBuilderModule, DxFormModule,
+	DxListModule,
+	DxNumberBoxModule, DxRadioGroupModule, DxRangeSelectorModule, DxRangeSliderModule, DxScrollViewModule,
+	DxSelectBoxModule, DxSliderModule,
+	DxSwitchModule,
+	DxTagBoxModule,
+	DxTemplateModule,
+	DxTextAreaModule,
+	DxTextBoxModule,
+	DxTreeViewModule,
+	DxValidationSummaryModule,
+	DxValidatorModule
+} from 'devextreme-angular';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
+@NgModule({
+	declarations: [],
+	imports: [
+		CommonModule,
+		DxButtonModule,
+		DxAutocompleteModule,
+		DxTemplateModule,
+		DxSelectBoxModule,
+		DxCalendarModule,
+		DxCheckBoxModule,
+		DxDateBoxModule,
+		DxColorBoxModule,
+		ReactiveFormsModule,
+		DxTreeViewModule,
+		DxDropDownBoxModule,
+		HttpClientModule,
+		DxDataGridModule,
+		DxNumberBoxModule,
+		DxTextBoxModule,
+		DxSwitchModule,
+		DxTagBoxModule,
+		DxTextAreaModule,
+		DxValidatorModule,
+		DxValidationSummaryModule,
+		DxFilterBuilderModule,
+		DxListModule,
+		DxFormModule,
+		DxRadioGroupModule,
+		DxRangeSelectorModule,
+		DxRangeSliderModule,
+		DxScrollViewModule,
+		DxSliderModule
+	],
+	exports: [
+		CommonModule,
+		DxButtonModule,
+		DxAutocompleteModule,
+		DxTemplateModule,
+		DxSelectBoxModule,
+		DxCalendarModule,
+		DxCheckBoxModule,
+		DxDateBoxModule,
+		DxColorBoxModule,
+		ReactiveFormsModule,
+		DxTreeViewModule,
+		DxDropDownBoxModule,
+		HttpClientModule,
+		DxDataGridModule,
+		DxNumberBoxModule,
+		DxTextBoxModule,
+		DxSwitchModule,
+		DxTagBoxModule,
+		DxTextAreaModule,
+		DxValidatorModule,
+		DxValidationSummaryModule,
+		DxFilterBuilderModule,
+		DxListModule,
+		DxFormModule,
+		DxRadioGroupModule,
+		DxRangeSelectorModule,
+		DxRangeSliderModule,
+		DxScrollViewModule,
+		DxSliderModule
+	]
+})
+export class SharedModule {
+}
