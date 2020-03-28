@@ -1,94 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {
-	DxAutocompleteModule,
-	DxButtonModule,
-	DxCalendarModule,
-	DxCheckBoxModule,
-	DxColorBoxModule,
-	DxDataGridModule,
-	DxDateBoxModule,
-	DxDropDownBoxModule,
-	DxFilterBuilderModule, DxFormModule,
-	DxListModule,
-	DxNumberBoxModule, DxRadioGroupModule, DxRangeSelectorModule, DxRangeSliderModule, DxScrollViewModule,
-	DxSelectBoxModule, DxSliderModule,
-	DxSwitchModule,
-	DxTagBoxModule,
-	DxTemplateModule,
-	DxTextAreaModule,
-	DxTextBoxModule,
-	DxTreeViewModule,
-	DxValidationSummaryModule,
-	DxValidatorModule
-} from 'devextreme-angular';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-	declarations: [],
+	declarations: [NavbarComponent],
 	imports: [
 		CommonModule,
-		DxButtonModule,
-		DxAutocompleteModule,
-		DxTemplateModule,
-		DxSelectBoxModule,
-		DxCalendarModule,
-		DxCheckBoxModule,
-		DxDateBoxModule,
-		DxColorBoxModule,
-		ReactiveFormsModule,
-		DxTreeViewModule,
-		DxDropDownBoxModule,
 		HttpClientModule,
-		DxDataGridModule,
-		DxNumberBoxModule,
-		DxTextBoxModule,
-		DxSwitchModule,
-		DxTagBoxModule,
-		DxTextAreaModule,
-		DxValidatorModule,
-		DxValidationSummaryModule,
-		DxFilterBuilderModule,
-		DxListModule,
-		DxFormModule,
-		DxRadioGroupModule,
-		DxRangeSelectorModule,
-		DxRangeSliderModule,
-		DxScrollViewModule,
-		DxSliderModule
+		NgbModule,
+		ReactiveFormsModule,
+		RouterModule
 	],
 	exports: [
 		CommonModule,
-		DxButtonModule,
-		DxAutocompleteModule,
-		DxTemplateModule,
-		DxSelectBoxModule,
-		DxCalendarModule,
-		DxCheckBoxModule,
-		DxDateBoxModule,
-		DxColorBoxModule,
-		ReactiveFormsModule,
-		DxTreeViewModule,
-		DxDropDownBoxModule,
 		HttpClientModule,
-		DxDataGridModule,
-		DxNumberBoxModule,
-		DxTextBoxModule,
-		DxSwitchModule,
-		DxTagBoxModule,
-		DxTextAreaModule,
-		DxValidatorModule,
-		DxValidationSummaryModule,
-		DxFilterBuilderModule,
-		DxListModule,
-		DxFormModule,
-		DxRadioGroupModule,
-		DxRangeSelectorModule,
-		DxRangeSliderModule,
-		DxScrollViewModule,
-		DxSliderModule
+		NgbModule,
+		ReactiveFormsModule,
+		NavbarComponent,
+		RouterModule
 	]
 })
 export class SharedModule {
