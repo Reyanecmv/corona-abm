@@ -8,9 +8,7 @@ export interface PersonInterface {
 	status: PersonStatusEnum;
 	possibleActions: PossibleActionsEnum;
 	currentAction: PossibleActionsEnum;
-	currentLocation: BuildingTypeEnum;
-	futureLocation?: BuildingTypeEnum;
-	geometry: GeoModel;
+	currentLocation: Coordinates;
 }
 
 export enum GenderEnum {
@@ -23,7 +21,8 @@ export enum PersonStatusEnum {
 	Infected = 2,
 	Zombie = 3,
 	Incarcerated = 4,
-	Hospitalized = 5
+	Hospitalized = 5,
+	Dead = 6
 }
 
 export enum PossibleActionsEnum {
