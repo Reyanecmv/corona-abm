@@ -1,11 +1,22 @@
 import { BuildingInterface } from './building.interface';
-import { GeoModel } from './geo-model';
 
 export class ScenarioModel {
-	geometry: GeoModel; // Coordinates of the simulation area
 	buildings: BuildingInterface[];
 	people: ScenarioPeopleModel;
 	duration: number; // number of days
+	status: ScenarioStatusEnum;
+	worldSize: WorldSizeModel;
+}
+
+export class WorldSizeModel {
+	stepsX: number;
+	stepsY: number;
+}
+
+export enum ScenarioStatusEnum {
+	Pending = 1,
+	Processing = 2,
+	Finished = 3
 }
 
 export class ScenarioPeopleModel {
@@ -33,7 +44,7 @@ export class AgeGroupsModel { // percentages
 	eightiesAndAbove: number;
 }
 
-export class ScenarioPeopleLocationsModel{
+export class ScenarioPeopleLocationsModel {
 	office: number;
 	flat: number;
 	store: number;

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 		HttpClientModule,
 		NgbModule,
 		ReactiveFormsModule,
+		FormsModule,
 		RouterModule
 	],
 	exports: [
@@ -21,6 +22,7 @@ import { RouterModule } from '@angular/router';
 		HttpClientModule,
 		NgbModule,
 		ReactiveFormsModule,
+		FormsModule,
 		NavbarComponent,
 		RouterModule
 	]

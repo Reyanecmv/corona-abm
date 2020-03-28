@@ -1,1 +1,118 @@
-<p>scenario-create works!</p>
+<div class="container">
+  <h1>Create Scenario</h1>
+  <form [formGroup]="form">
+    <div class="row mt-3">
+      <div class="col">
+        <div class="row mt-3">
+          <div class="col">
+            <label for="totalPop">Total Population</label>
+            <input id="totalPop" type="text" class="form-control" placeholder="Total Population">
+          </div>
+          <div class="col">
+            <label for="infected">Infected population (%)</label>
+            <input id="infected" type="text" class="form-control" placeholder="Infected population (%)">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <label for="worldSizeX">World size X axis</label>
+            <input id="worldSizeX" type="text" class="form-control" placeholder="World size X axis">
+          </div>
+          <div class="col">
+            <label for="worldSizeY">World size Y axis</label>
+            <input id="worldSizeY" type="text" class="form-control" placeholder="World size Y axis">
+          </div>
+        </div>
+        <div class="mt-3">
+          <label for="duration">Simulation duration (days)</label>
+          <input id="duration" type="text" class="form-control" placeholder="Simulation duration">
+        </div>
+        <h3 class="mt-5">Population gender distribution(%)</h3>
+        <div class="row mt-3">
+          <div class="col">
+            <label for="male">Male</label>
+            <input id="male" type="text" class="form-control" placeholder="Male">
+          </div>
+          <div class="col">
+            <label for="female">Female</label>
+            <input id="female" type="text" class="form-control" placeholder="Female">
+          </div>
+        </div>
+        <h3 class="mt-5">Population age distribution(%)</h3>
+        <div class="row mt-3">
+          <div class="col">
+            <label for="preteens">0-9 years</label>
+            <input id="preteens" type="text" class="form-control" placeholder="0-9 years">
+          </div>
+          <div class="col">
+            <label for="teens">10-19 years</label>
+            <input id="teens" type="text" class="form-control" placeholder="10-19 years">
+          </div>
+          <div class="col">
+            <label for="twenties">20-29 years</label>
+            <input id="twenties" type="text" class="form-control" placeholder="20-29 years">
+          </div>
+          <div class="col">
+            <label for="thirties">30-39 years</label>
+            <input id="thirties" type="text" class="form-control" placeholder="30-39 years">
+          </div>
+          <div class="col">
+            <label for="forties">40-49 years</label>
+            <input id="forties" type="text" class="form-control" placeholder="40-49 years">
+          </div>
+          <div class="col">
+            <label for="fifties">50-59 years</label>
+            <input id="fifties" type="text" class="form-control" placeholder="50-59 years">
+          </div>
+          <div class="col">
+            <label for="sixties">60-69 years</label>
+            <input id="sixties" type="text" class="form-control" placeholder="60-69 years">
+          </div>
+          <div class="col">
+            <label for="seventies">70-79 years</label>
+            <input id="seventies" type="text" class="form-control" placeholder="70-79 years">
+          </div>
+          <div class="col">
+            <label for="eighties">80+ years</label>
+            <input id="eighties" type="text" class="form-control" placeholder="80+ years">
+          </div>
+        </div>
+        <h3 class="mt-5">Population location distribution(%)</h3>
+        <div class="row mt-3">
+          <div class="col">
+            <label for="office">Office</label>
+            <input id="office" type="text" class="form-control" placeholder="Office">
+          </div>
+          <div class="col">
+            <label for="flat">Flat</label>
+            <input id="flat" type="text" class="form-control" placeholder="Flat">
+          </div>
+          <div class="col">
+            <label for="store">Store</label>
+            <input id="store" type="text" class="form-control" placeholder="Store">
+          </div>
+          <div class="col">
+            <label for="supermarket">Supermarket</label>
+            <input id="supermarket" type="text" class="form-control" placeholder="Supermarket">
+          </div>
+          <div class="col">
+            <label for="coffeeShop">Coffee Shop</label>
+            <input id="coffeeShop" type="text" class="form-control" placeholder="Coffee Shop">
+          </div>
+          <div class="col">
+            <label for="prison">Prison</label>
+            <input id="prison" type="text" class="form-control" placeholder="Prison">
+          </div>
+          <div class="col">
+            <label for="hospital">Hospital</label>
+            <input id="hospital" type="text" class="form-control" placeholder="Hospital">
+          </div>
+          <div class="col">
+            <label for="parc">Parc</label>
+            <input id="parc" type="text" class="form-control" placeholder="Parc">
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
